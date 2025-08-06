@@ -1,0 +1,17 @@
+{
+  "name": "crypto-tax-compliance-poc",
+  "version": "0.1.0",
+  "description": "Proof-of-concept micro-niche site for crypto tax compliance with Gemini and ChatGPT integration.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.0.1"
+  }
+}
